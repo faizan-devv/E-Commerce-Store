@@ -1,0 +1,49 @@
+header {
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  /* transition: 0.3s ease-in-out; */
+}
+
+.headerChange {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  background-color: #292929;
+}
+
+.logo {
+  color: #fff;
+  font-family: cursive;
+  font-size: 50px;
+  color: #fff !important;
+}
+.Navbar li a,
+.Navbar li button {
+  color: #fff !important;
+  height: auto;
+}
+.Navbar li button:hover,
+.Navbar li a:hover {
+  background-color: transparent;
+  color: #ff590f !important;
+}
+li {
+  padding: 0 20px;
+}
+.navLink {
+  position: relative;
+}
+.cartCounter {
+  position: absolute;
+  background: #ff590f;
+  top: 0px;
+  color: #fff;
+  width: 20px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  right: -5px;
+}

@@ -1,0 +1,21 @@
+.categorySection {
+  margin-bottom: 50px;
+}
+.categoriesWrapper {
+  text-align: left;
+  padding: 120px 0px;
+}
+.categorySection:last-child {
+  margin-bottom: 0px;
+}
+.categoryTitle {
+  color: #ff590f;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoryTitle a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+}

@@ -1,0 +1,29 @@
+.Table {
+  padding: 20px 0;
+}
+.Table img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+.Table th {
+  text-align: center;
+}
+.titleBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.titleBar .ButtonColumn {
+  display: flex;
+}
+.titleBar button {
+  font-weight: bold;
+}
+.btnsColoumn {
+  display: flex;
+}
+.btnsColoumn button {
+  margin-right: 10px;
+}

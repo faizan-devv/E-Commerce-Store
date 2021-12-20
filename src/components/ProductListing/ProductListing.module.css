@@ -1,0 +1,14 @@
+.ProductListing {
+  padding: 170px 0 70px;
+}
+.ProductListingTop {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.ProductListingTop h2 {
+  font-size: 35px;
+  color: #ff590f;
+}

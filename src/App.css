@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.owl-theme .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 98%;
+  left: 20px;
+  z-index: 9999;
+}
+.owl-theme .owl-nav button.owl-next {
+  position: absolute;
+  right: 30px;
+  width: 25px;
+  background-color: transparent;
+  border: none;
+}
+.owl-theme .owl-nav button.owl-prev {
+  position: absolute;
+  left: 20px;
+  width: 25px;
+  background-color: transparent;
+  border: none;
+}
+.owl-theme .owl-nav span {
+  font-size: 2.9375em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent !important;
+  color: #000 !important;
+  text-decoration: none;
+}
